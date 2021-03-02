@@ -5,6 +5,7 @@ var app = express();
 var fs = require('fs');
 var code_hash = fs.readFileSync('code_hash.txt','utf8');
 console.log (code_hash);
+console.log('HELLO TEST');
 console.log('The IPADDRESS is:', process.env.IP);
 console.log('The message is:', process.env.AZ);
 console.log('The hash is: %s', code_hash);
